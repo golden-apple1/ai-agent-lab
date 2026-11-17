@@ -1,0 +1,32 @@
+# Build outputs
+build/
+out/
+
+# IDE
+.vscode/
+.idea/
+
+# CMake/cache
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+Testing/
+
+# Logs
+*.log
+logs/
+
+# Secrets and env
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Local results and temp
+*.tmp
+*.temp
+*.cache
+*.swp
+.DS_Store
+Thumbs.db
